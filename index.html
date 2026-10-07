@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estoicismo sin humo · Cuaderno de trabajo gratuito</title>
+<meta name="description" content="Descarga gratis el cuaderno de trabajo de «Estoicismo sin humo», de Daniel Rosario: autoevaluación, registros semanales, hojas de ejercicios, diario de treinta noches y fichas para recortar.">
+<link rel="canonical" href="https://estoicismosinhumo.github.io/cuaderno/">
+<meta property="og:type" content="book">
+<meta property="og:title" content="Estoicismo sin humo · Cuaderno de trabajo">
+<meta property="og:description" content="Todas las plantillas del programa de ocho semanas, en un PDF gratuito para imprimir.">
+<meta property="og:image" content="portada.jpg">
+<meta name="theme-color" content="#22100c">
+<style>
+@font-face{font-family:'EB Garamond';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/ebgaramond-400.woff') format('woff');}
+@font-face{font-family:'EB Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/ebgaramond-400i.woff') format('woff');}
+@font-face{font-family:'EB Garamond';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/ebgaramond-600.woff') format('woff');}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/cormorant-500.woff') format('woff');}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-display:swap;src:url('fonts/cormorant-600i.woff') format('woff');}
+@font-face{font-family:'Cinzel';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/cinzel-600.woff') format('woff');}
+:root{--ink:#22100c;--oxblood:#3a1210;--wine:#7a241e;--gold:#e5c07c;--deepgold:#d6aa60;--cream:#f4ecdb;--ivory:#faf4e6;--paper:#eee6d4;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.6 'EB Garamond',Garamond,'Times New Roman',serif;text-rendering:optimizeLegibility;font-kerning:normal;font-variant-numeric:oldstyle-nums}
+a{color:var(--wine)}
+.hero{background:radial-gradient(ellipse at 70% 20%,#5a2416 0%,var(--oxblood) 45%,var(--ink) 100%);color:var(--cream)}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.5rem}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:3.5rem;align-items:center;padding-top:4.5rem;padding-bottom:4.5rem}
+.kicker{font:600 .78rem/1 'Cinzel',serif;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 1.4rem}
+h1{margin:0;font:600 clamp(2.4rem,6vw,4.1rem)/1 'Cinzel',serif;letter-spacing:.06em;color:var(--ivory)}
+h1 em{display:block;margin-top:.35rem;font:italic 600 clamp(2.6rem,6.6vw,4.6rem)/1 'Cormorant Garamond',serif;letter-spacing:0;color:var(--gold)}
+.sub{font:italic 500 1.35rem/1.35 'Cormorant Garamond',serif;color:var(--cream);margin:1.6rem 0 2rem;max-width:30rem}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);text-decoration:none;font:600 .95rem/1 'Cinzel',serif;letter-spacing:.12em;padding:1.05rem 1.6rem;border-radius:2px;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .15s ease,background .15s ease}
+.btn:hover,.btn:focus-visible{background:var(--ivory);transform:translateY(-1px)}
+.btn:focus-visible{outline:2px solid var(--ivory);outline-offset:3px}
+.meta{font-size:.95rem;color:#d9ccb3;margin:.9rem 0 0}
+.cover{justify-self:center;width:100%;max-width:21rem}
+.cover img{display:block;width:100%;height:auto;border-radius:2px;box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 0 1px rgba(229,192,124,.25)}
+main .wrap{max-width:44rem;padding-top:3.5rem;padding-bottom:3rem}
+h2{font:italic 600 1.9rem/1.2 'Cormorant Garamond',serif;color:var(--wine);margin:2.6rem 0 .8rem}
+h2:first-child{margin-top:0}
+.rule{width:4rem;height:1px;background:var(--wine);border:0;margin:0 0 1.5rem}
+ul.contents{list-style:none;padding:0;margin:0}
+ul.contents li{padding:.7rem 0;border-bottom:1px solid rgba(34,16,12,.14)}
+ul.contents li:last-child{border-bottom:0}
+ul.contents b{font-weight:600}
+blockquote{margin:2.4rem 0;padding:0 0 0 1.2rem;border-left:2px solid var(--deepgold);font:italic 500 1.35rem/1.45 'Cormorant Garamond',serif}
+blockquote cite{display:block;margin-top:.4rem;font:600 .72rem/1 'Cinzel',serif;letter-spacing:.2em;font-style:normal;color:var(--wine)}
+.cta{text-align:center;margin:2.8rem 0 1rem}
+.cta .btn{background:var(--wine);color:var(--ivory);box-shadow:none}
+.cta .btn:hover{background:var(--oxblood)}
+.help{background:var(--cream);border-top:1px solid rgba(34,16,12,.12);font-size:.95rem;line-height:1.5}
+.help .wrap{max-width:44rem;padding-top:2rem;padding-bottom:2rem}
+.help h3{font:600 .78rem/1 'Cinzel',serif;letter-spacing:.2em;text-transform:uppercase;margin:0 0 .8rem;color:var(--wine)}
+footer{background:var(--ink);color:#bfb29a;font-size:.9rem}
+footer .wrap{padding-top:1.6rem;padding-bottom:1.6rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr;gap:2.4rem;padding-top:3rem;padding-bottom:3.2rem;text-align:center} .sub{margin-left:auto;margin-right:auto} .cover{max-width:15rem;grid-row:1}}
+@media print{.hero{background:none;color:var(--ink)} .btn{box-shadow:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Cuaderno de trabajo gratuito</p>
+      <h1>Estoicismo <em>sin humo</em></h1>
+      <p class="sub">Todas las plantillas del programa de ocho semanas para dejar de pensar demasiado, listas para imprimir.</p>
+      <a class="btn" href="cuaderno.pdf" download="estoicismo-sin-humo-cuaderno.pdf">Descargar el cuaderno (PDF)</a>
+      <p class="meta">61 páginas · tamaño carta · 150 KB · sin registro</p>
+    </div>
+    <div class="cover"><img src="portada.jpg" width="900" height="1440" alt="Portada de Estoicismo sin humo, de Daniel Rosario: una figura de espaldas frente al mar bajo un cielo en espiral"></div>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <h2>Qué contiene</h2>
+    <hr class="rule">
+    <p>Los mismos materiales que propone el libro, con los mismos nombres, para que puedas imprimirlos tantas veces como quieras:</p>
+    <ul class="contents">
+      <li><b>Autoevaluación: tu mapa del bucle</b> y <b>Tres preguntas abiertas</b>, para el punto de partida y para la semana 8.</li>
+      <li><b>Los ocho registros semanales</b>, uno por semana.</li>
+      <li><b>Hojas de ejercicios</b> de las prácticas centrales: el mapa del control, el cajón de preocupaciones, el registro estoico, la premeditación con plan, del «por qué» al «cómo», la preparación de la mañana y la demora, tenerlos como quien puede perderlos, la jornada estoica, tus círculos de Hierocles, los papeles de Epicteto y la carta a la persona que serás dentro de seis meses.</li>
+      <li><b>Plan de siete días para una semana mala.</b></li>
+      <li><b>Diario de treinta noches</b>, una página por noche.</li>
+      <li><b>Fichas para recortar</b>: las once fichas de bolsillo del apéndice.</li>
+    </ul>
+    <blockquote>«No nos perturban las cosas, sino las opiniones sobre las cosas.»<cite>Epicteto, Manual 5</cite></blockquote>
+    <h2>Cómo usarlo</h2>
+    <hr class="rule">
+    <p>Imprime la autoevaluación y el registro de la semana 1 antes de empezar. Cada semana, imprime su registro y la hoja de la práctica central. Escribe a mano si puedes: la mano va más despacio que el pensamiento, y eso es justo lo que hace falta.</p>
+    <p>El cuaderno acompaña al libro <i>Estoicismo sin humo. Un programa de 8 semanas para dejar de pensar demasiado</i>, de Daniel Rosario, donde se explica cada ejercicio, de dónde viene y qué dice la investigación.</p>
+    <div class="cta"><a class="btn" href="cuaderno.pdf" download="estoicismo-sin-humo-cuaderno.pdf">Descargar el cuaderno</a></div>
+  </div>
+</main>
+<section class="help">
+  <div class="wrap">
+    <h3>Si lo estás pasando mal</h3>
+    <p>Este cuaderno no es un tratamiento ni sustituye la atención profesional. Si piensas en hacerte daño, pide ayuda ahora: España <b>024</b> (emergencias 112) · México, Línea de la Vida <b>800 911 2000</b> (911) · Estados Unidos <b>988</b>, opción 2 en español · Argentina <b>135</b> o <b>0800 345 1435</b> (911) · Colombia <b>106</b> (123). En otros países, llama al número local de emergencias. Teléfonos verificados en octubre de 2026.</p>
+  </div>
+</section>
+<footer>
+  <div class="wrap"><span>© 2026 Daniel Rosario · <i>Estoicismo sin humo</i></span><span>estoicismosinhumo.github.io/cuaderno</span></div>
+</footer>
+</body>
+</html>
